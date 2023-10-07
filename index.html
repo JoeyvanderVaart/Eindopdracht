@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Geld</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <nav>
+        <div> <img src="./images/euro.png" alt=""></div>
+        <div> <a href="#headline">Headline</a>
+            <a href="#hoofd">Hoofdverdachten</a>
+            <a href="#sugg">Suggesties</a>
+        </div>
+    </nav>
+
+    <header id="headline">
+        <div>
+            <h1>Hoe heb ik nu al al mijn geld uitgegeven??</h1>
+        </div>
+        <div>
+            <p> Ik heb letterlijk vorige week mijn salaris uitbetaald gekregen, maar mijn geld is nu al op 😭</p>
+        </div>
+        <div>
+            <p>Op deze pagina gaan we ontdekken waar alles heen is!</p>
+        </div>
+    </header>
+    <h2 class="tussenkopje">Hoofdverdachten</h2>
+    <main>
+        <section id="hoofd">
+            <div class="bigBox">
+                <img src="images/mirage.avif" alt="" class="ac">
+                <div class="smallBox">
+                    <h2>Pre-orders</h2>
+                    <p>Oktober is een dure maand voor games, en dit jaar zijn er 3 releases waarop ik een pre-order heb
+                        staan;
+                        Assassin's Creed Mirage, Cities Skylines 2 en de Metal Gear Solid Remaster. Dit zijn zeker weten
+                        dure
+                        aankopen.</p>
+                </div>
+            </div>
+            <div class="bigBox">
+                <img src="images/headset.png" alt="">
+                <div class="smallBox">
+                    <h2>Nieuwe Headset</h2>
+                    <p>Nadat mijn oude headset het opgaf, heb ik een nieuwe headset moeten aanschaffen. Deze headset wat
+                        de
+                        Steelseries Nova 7P, en dit kan zeker wel uitleggen waar me geld heen is samen met de pre-orders
+                    </p>
+                </div>
+            </div>
+            <div class="bigBox">
+                <img src="images/koffaie.avif" alt="">
+                <div class="smallBox">-<h2>AH to go Beurs</h2>
+                    <p>Er staat een AH to go vlak naast waar ik me metro op stap en er word van mij verwacht dat ik niet
+                        bijna elke
+                        keer een ijskoffie koop?????</p>
+                </div>
+            </div>
+        </section>
+        <h2>Heb jij nog suggesties om mij beter om te laten gaan met mijn geld?</h2>
+        <form id="sugg">
+            <div>
+                <label for="name">Naam*</label>
+                <input type="text" name="name" id="name" placeholder="Voer volledige naam in..." required>
+            </div>
+            <div>
+                <label for="email">Email*</label>
+                <input type="email" name="email" id="email" placeholder="Voer e-mailadress in..." required>
+            </div>
+
+            <div>
+                <label for="city">Woonplaats*</label>
+                <input type="text" name="city" id="city" placeholder="Voer woonplaats in..." required>
+            </div>
+
+            <div>
+                <label for="birthdate">Geboortedatum*</label>
+                <input type="date" name="birthdate" id="birthdate" required>
+            </div>
+            <div>
+                <label for="question">Uw Suggestie*</label>
+                <input type="text" name="question" id="question" required class="question">
+
+            </div>
+            <div>
+                <label for="send-to">Verstuur naar*</label>
+                <select name="send-to" id="send-to" required>
+                    <option value="" disabled selected>--Kies Locatie--</option>
+                    <option value="0">Vuilnisbak</option>
+                    <option value="1">Sloot</option>
+                    <option value="2">Toilet</option>
+                    <option value="3">Joey (Mosmans, niet van der Vaart)</option>
+                </select>
+            </div>
+            <div>
+                <button type="submit" class="button">Versturen</button>
+            </div>
+        </form>
+    </main>
+    <footer>
+        <div>
+            <img src="images/euro.png" alt="">
+            <p>Copyright Joey Inc. 2023</p>
+        </div>
+        <div class="foot">
+            <a href="">Privacy Policy</a>
+            <a href="">Terms & Conditions</a>
+            <a href="">Andere zooi</a>
+        </div>
+    </footer>
+
+</body>
+
+</html>
